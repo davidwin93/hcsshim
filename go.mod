@@ -1,4 +1,4 @@
-module github.com/Microsoft/hcsshim
+module github.com/davidwin93/hcsshim
 
 go 1.21
 
