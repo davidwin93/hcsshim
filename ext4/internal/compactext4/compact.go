@@ -1332,7 +1332,7 @@ func (w *Writer) Close() error {
 		InodeSize:          inodeSize,
 		FeatureCompat:      format.CompatSparseSuper2 | format.CompatExtAttr,
 		FeatureIncompat:    format.IncompatFiletype | format.IncompatExtents | format.IncompatFlexBg,
-		FeatureRoCompat:    format.RoCompatLargeFile | format.RoCompatHugeFile | format.RoCompatExtraIsize | format.RoCompatReadonly,
+		FeatureRoCompat:    format.RoCompatLargeFile | format.RoCompatHugeFile | format.RoCompatExtraIsize,
 		MinExtraIsize:      extraIsize,
 		WantExtraIsize:     extraIsize,
 		LogGroupsPerFlex:   31,
